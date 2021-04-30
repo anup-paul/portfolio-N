@@ -1,0 +1,23 @@
+.card-design{
+    border: 2px solid var(--primary-orange);
+    width: 450px;
+}
+
+.card-design button{
+    border: 2px solid var(--primary-orange);
+    
+}
+.card-design button:hover{
+    background-color:  var(--primary-orange);
+    color: var(--primary-background);
+}
+.card-design > button > a:hover{
+    
+    color: var(--primary-background)!important;
+}
+@media(max-width:768px){
+    .card-design{
+        
+        width: 300px;
+    }
+}

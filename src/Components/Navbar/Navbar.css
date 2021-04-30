@@ -1,3 +1,21 @@
-/* .logo-design img{
-    height: 70px;
-} */
+.navbar-logo > b:hover{
+    color:var(--primary-white) ;
+  }
+.navbar-logo > b{
+    color:var(--primary-orange) ;
+  }
+.navbar-nav > li > a{
+    border-top: 0.1875rem solid var(--primary-background);
+  }
+  
+.navbar-nav > li > a:hover{
+    border-top: 0.1875rem solid var(--primary-orange);
+  }
+
+.resume-button-design{
+  border:2px solid var(--primary-orange);
+}
+
+.resume-button-design:hover{
+  background-color: var(--primary-orange);
+}

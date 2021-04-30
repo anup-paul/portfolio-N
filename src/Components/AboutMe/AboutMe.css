@@ -1,0 +1,16 @@
+.profile-image-design {
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-orange);
+    padding: 5px;
+  }
+  
+  .contract-button-design{
+    border: 2px solid var(--primary-orange);
+  }
+  .contract-button-design:hover{
+    background-color:  var(--primary-orange);
+  }
+  .aboutMe-section{
+    background-color: var(--primary-background);
+  }

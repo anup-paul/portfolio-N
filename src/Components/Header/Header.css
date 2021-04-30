@@ -1,0 +1,77 @@
+.header-wraper{
+    position: relative;
+    background: url(../../images/BG-Header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    z-index: 1;
+  }
+  .header-wraper::before{
+    position: absolute;
+    content: "";
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-background);
+    opacity: .7;
+    z-index: -1;
+  }
+  
+  .main-info{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  
+  .main-info h1{
+    color:var(--primary-orange);
+    text-transform: uppercase;
+  }
+  
+  .dp-design{
+    width: 12.5rem;
+    border-radius: 50%;
+    border: 0.125rem solid var(--primary-orange);
+  }
+  
+  .icon-design .icon{
+      height: 40px;
+      width: 40px;
+      color:var(--primary-orange);
+      border-radius: 50%;
+      border: 1px solid var(--primary-orange);
+      padding: 10px; 
+  }
+  
+  /**************** typed ***************/
+  
+  .typed-text{
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  @media(max-width:768px) {
+    .main-info h1 {
+      font-size: 1.6rem !important;
+    }
+    .typed-text{
+      font-size: 1.2rem !important;
+    }
+    .icon-design .icon{
+      height: 30px;
+      width: 30px;
+      color:#f9ab00;
+      border-radius: 50%;
+      border: 1px solid #f9ab00;
+      padding: 5px; 
+    }
+  }
