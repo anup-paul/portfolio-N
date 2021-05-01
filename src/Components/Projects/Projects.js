@@ -9,6 +9,7 @@ const projectInfo = [
     {
         name: 'Hlw Nomads',
         image: hlwNomads,
+        id:1,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta eos, maiores illo odio mollitia accusamus aliquam deserunt assumenda suscipit.',
         liveSiteURl: 'https://travel-service-ded51.web.app/',
         codeURL: 'https://github.com/anup-paul/TravellAgentService-Client-Site'
@@ -16,6 +17,7 @@ const projectInfo = [
     {
         name: 'BookShop',
         image: hlwNomads,
+        id:2,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta eos, maiores illo odio mollitia accusamus aliquam deserunt assumenda suscipit.',
         liveSiteURl: 'https://full-stack-client-anup-paul.web.app/',
         codeURL: 'https://github.com/anup-paul/BookShop-clientSite'
@@ -23,6 +25,7 @@ const projectInfo = [
     {
         name: 'BookShop',
         image: paulRider,
+        id:3,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta eos, maiores illo odio mollitia accusamus aliquam deserunt assumenda suscipit.',
         liveSiteURl: 'https://full-stack-client-anup-paul.web.app/',
         codeURL: 'https://github.com/anup-paul/BookShop-clientSite'
@@ -30,6 +33,7 @@ const projectInfo = [
     {
         name: 'BookShop',
         image: paulRider,
+        id:4,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta eos, maiores illo odio mollitia accusamus aliquam deserunt assumenda suscipit.',
         liveSiteURl: 'https://full-stack-client-anup-paul.web.app/',
         codeURL: 'https://github.com/anup-paul/BookShop-clientSite'
@@ -45,7 +49,7 @@ const Projects = () => {
                 <div className="row w-75">
                     <h1 className="text-center mt-5" style={{color:"#f9ab00"}}>This are my recent projects</h1>
                     {
-                        projectInfo.map(project => <ProjectDetails project={project} ></ProjectDetails>)
+                        projectInfo.map(project => <ProjectDetails key={project.id} project={project} ></ProjectDetails>)
                     }
                 </div>
             </div>

@@ -10,10 +10,10 @@ const ProjectDetails = ({ project }) => {
                     <img className="img-fluid" style={{ height: "300px", width: "400px" }} src={project.image} alt="" />
                     <p className="mt-2" style={{color:"white"}} >{project.description}</p>
                     <button className="btn  mx-3">
-                        <a href={project.codeURL} style={{textDecoration:"none", color:"white"}} >  Github</a>
+                        <a href={project.codeURL} target='_blank' style={{textDecoration:"none", color:"white"}} >  Github</a>
                     </button>
                     <button className="btn ">
-                        <a href={project.liveSiteURl} style={{textDecoration:"none", color:"white"}} >Live Site</a>
+                        <a href={project.liveSiteURl} target='_blank' style={{textDecoration:"none", color:"white"}} >Live Site</a>
                     </button>
                 </div>
             </div>
