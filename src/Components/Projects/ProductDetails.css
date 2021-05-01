@@ -1,5 +1,5 @@
-.card-design{
-    border: 2px solid var(--primary-orange);
+/* .card-design{
+    border: 2px solid var(--primary-orange)!important;
     width: 450px;
 }
 
@@ -15,9 +15,17 @@
     
     color: var(--primary-background)!important;
 }
+.card-design{
+         width: 300px;
+    }
 @media(max-width:768px){
     .card-design{
-        
-        width: 300px;
+         width: 300px;
     }
+} */
+
+.link-button-design:hover {
+    
+    background-color: var(--primary-orange)!important;
+    color: var(--primary-background)!important;
 }

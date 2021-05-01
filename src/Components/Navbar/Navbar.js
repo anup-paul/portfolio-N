@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link to="/home" className="nav-link active text-light" aria-current="page" ><b>Home</b></Link>
                         </li>
                         <li className="nav-item mx-3 mt-3">
-                            <Link className="nav-link active text-light" aria-current="page" to="#"><b>Skills</b></Link>
+                            <Link to="about" className="nav-link active text-light" aria-current="page" ><b>About</b></Link>
                         </li>
                         <li className="nav-item mx-3 mt-3">
                             <Link to="/projects" className="nav-link active text-light" aria-current="page"  ><b>Projects</b></Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
                             <Link to="/blogs" className="nav-link active text-light" aria-current="page" ><b>Blogs</b></Link>
                         </li>
                         <li className="nav-item mx-3 mt-3">
-                            <Link className="nav-link active text-light" aria-current="page" to="#"><b>Contract</b></Link>
+                            <Link to="/contract" className="nav-link active text-light" aria-current="page" ><b>Contract</b></Link>
                         </li>
                         <li className="nav-item mx-3 ">
                             <button className="btn my-2 resume-button-design">

@@ -5,18 +5,24 @@ import './ProductDetails.css';
 const ProjectDetails = ({ project }) => {
     return (
         <div className="col-md-6">
-            <div className="m-5 text-center">
-                <div className="card-design p-3">
-                    <img className="img-fluid" style={{ height: "300px", width: "400px" }} src={project.image} alt="" />
-                    <p className="mt-2" style={{color:"white"}} >{project.description}</p>
-                    <button className="btn  mx-3">
-                        <a href={project.codeURL} target='_blank' style={{textDecoration:"none", color:"white"}} >  Github</a>
-                    </button>
-                    <button className="btn ">
-                        <a href={project.liveSiteURl} target='_blank' style={{textDecoration:"none", color:"white"}} >Live Site</a>
-                    </button>
+            <div className="card card-design m-4 text-center" style={{ border:" 2px solid #f9ab00" }}>
+                <div className=" p-3" style={{backgroundColor:"#0A192F"}}>
+                    <img  src={project.image} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title" style={{color:"#f9ab00"}} ><b>{project.name}</b></h5>
+                        <p className="card-text" style={{color:"white"}}>{project.description}</p>
+                        <h5 className="card-title" style={{color:"#f9ab00"}} ><b>Technology</b></h5>
+                        <div className="d-flex justify-content-center" >
+                            <p><b style={{color:"white"}}>{project.tools}</b></p>
+                        </div>
+                        <a href={project.codeURL} className="btn mx-2 link-button-design" target='_blank'  style={{textDecoration:"none", color:"white", border:"2px solid #f9ab00"}} >  Github</a>
+                        <a href={project.liveSiteURl} className="btn link-button-design" target='_blank'  style={{textDecoration:"none", color:"white",  border:"2px solid #f9ab00"}} >Live Site</a>
+                    
+                    </div>
                 </div>
+
             </div>
+            
         </div>
     );
 };

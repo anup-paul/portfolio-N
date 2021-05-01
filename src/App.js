@@ -2,8 +2,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import AboutMe from './Components/AboutMe/AboutMe';
 
@@ -12,6 +11,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -33,11 +33,20 @@ function App() {
           <Route path="/blogs">
             <Blogs></Blogs>
           </Route>
-          <Route exact path="/">
-            <Header></Header>
+          <Route path="/about">
             <AboutMe></AboutMe>
           </Route>
+          <Route path="/contract">
+            <Contact></Contact>
+          </Route>
+          <Route exact path="/">
+            <Header></Header>
+            <Projects></Projects>
+            <AboutMe></AboutMe>
+            <Contact></Contact>
+          </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
 
 

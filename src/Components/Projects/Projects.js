@@ -28,7 +28,8 @@ const projectInfo = [
         id:3,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta eos, maiores illo odio mollitia accusamus aliquam deserunt assumenda suscipit.',
         liveSiteURl: 'https://full-stack-client-anup-paul.web.app/',
-        codeURL: 'https://github.com/anup-paul/BookShop-clientSite'
+        codeURL: 'https://github.com/anup-paul/BookShop-clientSite',
+        tools: 'node mongodb', 
     },
     {
         name: 'BookShop',
@@ -36,7 +37,8 @@ const projectInfo = [
         id:4,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta eos, maiores illo odio mollitia accusamus aliquam deserunt assumenda suscipit.',
         liveSiteURl: 'https://full-stack-client-anup-paul.web.app/',
-        codeURL: 'https://github.com/anup-paul/BookShop-clientSite'
+        codeURL: 'https://github.com/anup-paul/BookShop-clientSite',
+        tools : 'node bootstrap'
     }
 
 ]
@@ -47,7 +49,7 @@ const Projects = () => {
         <div className="project-section" >
             <div className="d-flex justify-content-center" >
                 <div className="row w-75">
-                    <h1 className="text-center mt-5" style={{color:"#f9ab00"}}>This are my recent projects</h1>
+                    <h1 className="text-center mt-5 pt-5" style={{color:"#f9ab00"}}>This are my recent projects</h1>
                     {
                         projectInfo.map(project => <ProjectDetails key={project.id} project={project} ></ProjectDetails>)
                     }
