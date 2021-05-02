@@ -1,3 +1,4 @@
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -18,6 +19,8 @@ function App() {
 
   return (
     <div>
+     
+      
       <Router>
         <Navbar></Navbar>
 
@@ -50,7 +53,7 @@ function App() {
         <Footer></Footer>
       </Router>
 
-
+     
 
 
     </div>

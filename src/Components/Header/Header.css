@@ -56,12 +56,79 @@
     transform: scale(1.2);
   }
   
-  /**************** typed ***************/
+  
   
   .typed-text{
     font-size: 2rem;
     color: #fff;
   }
+
+  .bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+    z-index: -2;
+  }
+  .bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0px;
+  }
+  @keyframes bubble{
+    
+    0%{
+      transform: translateY(0);
+      opacity: 0;
+    }
+    50%{
+      
+      opacity: 1;
+    }
+    70%{
+      
+      opacity: 1;
+    }
+    100%{
+      transform: translateY(80vh);
+      opacity: 0;
+    }
+
+  }
+
+  .bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+  }
+  .bubbles img:nth-child(2){
+    animation-delay: 1s;
+    width: 20px;
+  }
+  .bubbles img:nth-child(3){
+    animation-delay: 3s;
+    width: 35px;
+  }
+  .bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+    width: 10px;
+  }
+  .bubbles img:nth-child(5){
+    animation-delay: 5s;
+  }
+  .bubbles img:nth-child(6){
+    animation-delay: 2s;
+    width: 25px;
+  }
+  .bubbles img:nth-child(7){
+    animation-delay: 1s;
+    width: 20px;
+  }
+  .bubbles img:nth-child(8){
+    animation-delay: 5.5s;
+    width: 25px;
+  }
+
   
   @media(max-width:768px) {
     .main-info h1 {

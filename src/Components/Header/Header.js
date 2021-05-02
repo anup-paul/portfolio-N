@@ -1,14 +1,28 @@
 import React from 'react';
 import ReactTyped from 'react-typed';
-import './Header.css'
+import './Header.css';
 import dp from '../../images/DP2.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import bubble from '../../images/bubble.png';
+
+
 
 const Header = () => {
     return (
         <div className="header-wraper">
+           
             <div className="main-info">
+            <div className="bubbles" >
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-5" src={bubble} alt=""/>
+                </div>
                 <img className=" img-fluid my-3 dp-design" src={dp} alt="" />
                 <h3><b style={{ color: "#f9ab00" }}>Hello, This is</b></h3>
                 <h1><b>Anup Paul</b></h1>
@@ -24,6 +38,8 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
+
+                
             </div>
         </div>
     );

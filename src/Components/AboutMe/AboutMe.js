@@ -23,7 +23,7 @@ const AboutMe = () => {
                                 <a href={resume101} download="Anup Paul" > Resume </a>
                             </button>
                             <button style={{ color: "white" }} className="btn contract-button-design mx-2 mb-1">
-                                <a href="https://www.linkedin.com/in/anup-paul-7315b2203/" target="_blank" rel="noreferrer" > Hire Me </a>
+                                <a href="https://www.linkedin.com/in/anup-paul-7315b2203/" target="_blank" rel="noopener noreferrer" > Hire Me </a>
                             </button>
                         </div>
                     </div>

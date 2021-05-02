@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import { Bounce } from "react-awesome-reveal";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const Contact = (e) => {
 
@@ -48,7 +49,7 @@ const Contact = (e) => {
                                     {errors.message && <span style={{ color: "red" }}>*This field is required</span>}
                                 </div>
                                 <p className="text-white" >Sending to
-                           <a href="https://www.anuppaul184@gmail.com" target="_blank" rel="noreferrer"style={{ color: "#f9ab00" }} > anuppaul184@gmail.com</a>
+                                    <a href="https://www.anuppaul184@gmail.com" target="_blank" rel="noopener noreferrer" style={{ color: "#f9ab00" }} > anuppaul184@gmail.com</a>
                                 </p>
                                 <input className="btn design-submit-button " type="submit" />
 
@@ -56,6 +57,14 @@ const Contact = (e) => {
                             {
                                 userMessage && <h5><b className="mt-3" style={{ color: "green" }}>Message successfully send! Thank you!</b></h5>
                             }
+                             <div style={{zIndex:"30"}}>
+     <h1  style={{zIndex:"30"}}>hello</h1>
+     </div>
+     <MessengerCustomerChat 
+        pageId="<108693421374864>"
+        appId="<169107498457436>"
+        
+      />
                         </div>
                     </div>
                 </div>
