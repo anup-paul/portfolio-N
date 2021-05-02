@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProductDetails.css';
+import './ProjectDetails.css'
 import { Zoom } from "react-awesome-reveal";
 
 

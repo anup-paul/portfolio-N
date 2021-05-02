@@ -24,8 +24,8 @@ function App() {
         <Switch>
           <Route path="/home" >
             <Header></Header>
-            <Projects></Projects>
             <AboutMe></AboutMe>
+            <Projects></Projects>
             <SayHello></SayHello>
           </Route>
           <Route path="/projects">
@@ -42,8 +42,8 @@ function App() {
           </Route>
           <Route exact path="/">
             <Header></Header>
-            <Projects></Projects>
             <AboutMe></AboutMe>
+            <Projects></Projects>
             <SayHello></SayHello>
           </Route>
         </Switch>
