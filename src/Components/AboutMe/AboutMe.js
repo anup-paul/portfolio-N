@@ -3,7 +3,7 @@ import profileImage from '../../images/DP3.jpg';
 import './AboutMe.css';
 import resume101 from '../../resume/Resume105.pdf';
 import { Zoom } from "react-awesome-reveal";
-import { Fade } from "react-awesome-reveal";
+
 
 
 const AboutMe = () => {
