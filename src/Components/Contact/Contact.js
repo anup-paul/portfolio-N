@@ -48,7 +48,7 @@ const Contact = (e) => {
                                     {errors.message && <span style={{ color: "red" }}>*This field is required</span>}
                                 </div>
                                 <p className="text-white" >Sending to
-                           <a href="https://www.anuppaul184@gmail.com" target="_blank" style={{ color: "#f9ab00" }} > anuppaul184@gmail.com</a>
+                           <a href="https://www.anuppaul184@gmail.com" target="_blank" rel="noreferrer"style={{ color: "#f9ab00" }} > anuppaul184@gmail.com</a>
                                 </p>
                                 <input className="btn design-submit-button " type="submit" />
 
