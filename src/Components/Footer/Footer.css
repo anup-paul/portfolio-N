@@ -1,6 +1,9 @@
-.footer-icon-design .footer-icon{
+.footer-icon{
     font-size: 30px;
     color: var(--primary-orange);
     margin-bottom: 20px;
     margin-top: 10px;
+}
+.footer-icon:hover{
+   transform: scale(1.2);
 }

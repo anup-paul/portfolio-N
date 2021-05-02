@@ -49,8 +49,11 @@
       width: 40px;
       color:var(--primary-orange);
       border-radius: 50%;
-      border: 1px solid var(--primary-orange);
+      border: 2px solid var(--primary-orange);
       padding: 10px; 
+  }
+  .icon-design .icon:hover{
+    transform: scale(1.2);
   }
   
   /**************** typed ***************/

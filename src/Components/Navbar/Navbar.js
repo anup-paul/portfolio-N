@@ -28,7 +28,7 @@ const Navbar = () => {
                             <Link to="/blogs" className="nav-link active text-light" aria-current="page" ><b>Blogs</b></Link>
                         </li>
                         <li className="nav-item mx-3 mt-3">
-                            <Link to="/contract" className="nav-link active text-light" aria-current="page" ><b>Contract</b></Link>
+                            <Link to="/contact" className="nav-link active text-light" aria-current="page" ><b>Contract</b></Link>
                         </li>
                         <li className="nav-item mx-3 ">
                             <button className="btn my-2 resume-button-design">

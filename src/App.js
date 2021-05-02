@@ -12,6 +12,7 @@ import Projects from './Components/Projects/Projects';
 import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import SayHello from './Components/SayHello/SayHello';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
             <Header></Header>
             <Projects></Projects>
             <AboutMe></AboutMe>
-            <Contact></Contact>
+            <SayHello></SayHello>
           </Route>
           <Route path="/projects">
             <Projects></Projects>
@@ -36,14 +37,14 @@ function App() {
           <Route path="/about">
             <AboutMe></AboutMe>
           </Route>
-          <Route path="/contract">
+          <Route path="/contact">
             <Contact></Contact>
           </Route>
           <Route exact path="/">
             <Header></Header>
             <Projects></Projects>
             <AboutMe></AboutMe>
-            <Contact></Contact>
+            <SayHello></SayHello>
           </Route>
         </Switch>
         <Footer></Footer>

@@ -1,6 +1,4 @@
-.contact{
-    background-color: var(--primary-background);
-}
+
 .design-submit-button{
     border:2px solid var(--primary-orange)!important;
     color: white;
@@ -10,6 +8,7 @@
 .design-submit-button:hover{
     background-color: var(--primary-orange)!important;
     color: var(--primary-background);
+    transform: scale(1.1);
 }
 
 @media(max-width:768px){

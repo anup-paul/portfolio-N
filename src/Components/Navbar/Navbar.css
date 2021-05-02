@@ -26,3 +26,6 @@
 .resume-button-design:hover{
   background-color: var(--primary-orange);
 }
+.resume-button-design > a:hover{
+ color: var(--primary-background)!important;
+}

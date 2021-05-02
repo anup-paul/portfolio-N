@@ -1,0 +1,9 @@
+.contact-button-design{
+    color: white!important;
+    border: 2px solid var(--primary-orange);
+}
+.contact-button-design:hover{
+    color: var(--primary-background)!important;
+    background-color: var(--primary-orange);
+    transform: scale(1.1);
+}
