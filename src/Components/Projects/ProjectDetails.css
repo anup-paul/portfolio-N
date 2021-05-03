@@ -1,4 +1,7 @@
-
+.image-design{
+    height: 12.5rem;
+    width: 12.5rem;
+}
 .link-button-design:hover {
     
     background-color: var(--primary-orange)!important;

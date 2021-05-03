@@ -18,7 +18,7 @@ const AboutMe = () => {
                         </div>
                         <div className="col-md-6 my-5 text-section" >
                             <p style={{ color: "white" }}>I'm Anup Paul. I am a Font-End Web Developer. And I'm also learning Back-End-Development and looking forward to being a Full Stack Web Developer. I always focus on learning new technology.
-                        I like to solve challenges and learn from them. Recently I have developed some full-stack project. </p>
+                                    I like to solve challenges and learn from them. Recently I have developed some full-stack project. </p>
                             <button style={{ color: "white" }} className="btn contract-button-design mx-2 mb-1">
                                 <a href={resume101} download="Anup Paul" > Resume </a>
                             </button>
@@ -36,7 +36,7 @@ const AboutMe = () => {
 
 
                         <h1 className="text-center mb-5" style={{ color: "#f9ab00" }} > <b><b style={{ color: "white" }}> Some Of My</b>  Skills</b></h1>
-                        <div className="col-md-4  ">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="border-end border-start p-2 border-warning border-5" style={{ height: "280px" }}>
                                 <h2 className="text-center" style={{ color: "white" }} >&#9679; <b style={{ color: "#f9ab00" }} >Web</b></h2>
 
@@ -53,7 +53,7 @@ const AboutMe = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-4 ">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="border-end border-start p-2  border-warning border-5 " style={{ height: "280px" }} >
                                 <h2 className="text-center" style={{ color: "white" }} >&#9679; <b style={{ color: "#f9ab00" }} >Tool</b></h2>
 
@@ -67,7 +67,7 @@ const AboutMe = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-4  ">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="border-end border-start p-2 border-warning border-5" style={{ height: "280px" }} >
                                 <h2 className="text-center" style={{ color: "white" }} >&#9679; <b style={{ color: "#f9ab00" }} >Programing</b></h2>
                                 <p className="skill-design">

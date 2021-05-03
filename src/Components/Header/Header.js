@@ -14,16 +14,16 @@ const Header = () => {
            
             <div className="main-info">
             <div className="bubbles" >
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
-                    <img className="mx-5" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2  img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
+                    <img className="mx-lg-5 mx-md-3 mx-2 img-fluid" src={bubble} alt=""/>
                 </div>
-                <img className=" img-fluid my-3 dp-design" src={dp} alt="" />
+                <img className=" img-fluid my-3 dp-design " src={dp} alt="" />
                 <h3><b style={{ color: "#f9ab00" }}>Hello, This is</b></h3>
                 <h1><b>Anup Paul</b></h1>
                 <div className="d-flex icon-design">

@@ -12,7 +12,7 @@ const SayHello = () => {
                         <h5> <b style={{ color: "#f9ab00" }} >What's Next?</b> </h5>
                         <h1 className=" text-center  text-white"><b>Get In <b style={{ color: "#f9ab00" }} >Touch</b></b></h1>
                         <p>I'd Love to hear from you . Whether you have a question or just want to say hi, fell free to drop a message. I'll try my best to get back to you!</p>
-                        <Link to="/contact" className="btn contact-button-design" >Say Hello</Link>
+                        <Link to="/contact" className="btn contact-button-design" ><b>Say Hello</b></Link>
                     </div>
                 </div>
             </div>

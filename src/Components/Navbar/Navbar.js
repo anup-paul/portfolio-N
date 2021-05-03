@@ -3,7 +3,7 @@ import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
-import resume from '../../resume/Resume105.pdf'
+import resume from '../../resume/Resume.pdf'
 
 const Navbar = () => {
     return (
@@ -32,7 +32,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item mx-3 ">
                             <button className="btn my-2 resume-button-design">
-                                <a href={resume} className="nav-link active text-light" aria-current="page" download="Resume" ><b>Resume</b></a>
+                                <a href={resume} className="nav-link active text-light" aria-current="page" download="Anup-Paul" ><b>Resume</b></a>
                             </button>
                         </li>
                     </ul>
