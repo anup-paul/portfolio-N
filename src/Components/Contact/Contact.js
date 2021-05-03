@@ -57,14 +57,13 @@ const Contact = (e) => {
                             {
                                 userMessage && <h5><b className="mt-3" style={{ color: "green" }}>Message successfully send! Thank you!</b></h5>
                             }
-                             <div style={{zIndex:"30"}}>
-     <h1  style={{zIndex:"30"}}>hello</h1>
-     </div>
-     <MessengerCustomerChat 
-        pageId="<108693421374864>"
-        appId="<169107498457436>"
-        
-      />
+                        
+                        
+                            <MessengerCustomerChat
+                                pageId="<108693421374864>"
+                                appId="<169107498457436>"
+
+                            />
                         </div>
                     </div>
                 </div>
