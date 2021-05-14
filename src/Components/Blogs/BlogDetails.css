@@ -1,0 +1,5 @@
+.blog-button-design:hover{
+
+    background-color: var(--primary-orange);
+    color: var(--primary-background)!important;
+}

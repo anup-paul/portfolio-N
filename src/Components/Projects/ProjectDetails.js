@@ -49,6 +49,7 @@ const ProjectDetails = ({ project }) => {
                             <div className="d-flex justify-content-center" >
                                 <p><b style={{ color: "white" }}>{project.tools}</b></p>
                             </div>
+                            
                             <a href={project.codeURL} className="btn mx-2 link-button-design" target='_blank' rel="noopener noreferrer" style={{ textDecoration: "none", color: "white", border: "2px solid #f9ab00" }} >  Github</a>
                             <a href={project.liveSiteURl} className="btn link-button-design" target='_blank' rel="noopener noreferrer" style={{ textDecoration: "none", color: "white", border: "2px solid #f9ab00" }} >Live Site</a>
 

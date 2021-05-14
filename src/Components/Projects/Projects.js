@@ -65,7 +65,7 @@ const projectInfo = [
 
 const Projects = () => {
     return (
-        <div className="project-section mb-5 pb-5" >
+        <div className=" mb-5 pb-5" >
             <div className="d-flex justify-content-center" >
                 <div className="row container">
                     <h1 className="text-center mt-5 mb-3 pt-5" style={{color:"#f9ab00"}}> <b><b style={{color:"white"}}>Some of my</b> Projects</b> </h1>

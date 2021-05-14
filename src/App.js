@@ -29,6 +29,7 @@ function App() {
             <Header></Header>
             <AboutMe></AboutMe>
             <Projects></Projects>
+            <Blogs></Blogs>
             <SayHello></SayHello>
           </Route>
           <Route path="/projects">
