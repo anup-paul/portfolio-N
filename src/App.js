@@ -48,8 +48,8 @@ function App() {
             <Header></Header>
             <AboutMe></AboutMe>
             <Projects></Projects>
-            <SayHello></SayHello>
             <Blogs></Blogs>
+            <SayHello></SayHello>
           </Route>
         </Switch>
         <Footer></Footer>
