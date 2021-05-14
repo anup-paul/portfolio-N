@@ -49,6 +49,7 @@ function App() {
             <AboutMe></AboutMe>
             <Projects></Projects>
             <SayHello></SayHello>
+            <Blogs></Blogs>
           </Route>
         </Switch>
         <Footer></Footer>

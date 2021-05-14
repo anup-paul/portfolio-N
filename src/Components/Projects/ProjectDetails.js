@@ -1,18 +1,20 @@
 import React from 'react';
-import './ProjectDetails.css'
+import './ProjectDetails.css';
+
 import { Zoom } from "react-awesome-reveal";
 
 
 const ProjectDetails = ({ project }) => {
+   
     return (
         <div className="col-lg-6 col-md-12 col-sm-12">
 
             <Zoom >
                 <div className="card card-design m-4 text-center" style={{ border: " 2px solid #f9ab00" }}>
                     <div className=" p-3" style={{ backgroundColor: "#0A192F" }}>
-                
+                       
 
-
+                        
                         <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -49,7 +51,7 @@ const ProjectDetails = ({ project }) => {
                             <div className="d-flex justify-content-center" >
                                 <p><b style={{ color: "white" }}>{project.tools}</b></p>
                             </div>
-                            
+
                             <a href={project.codeURL} className="btn mx-2 link-button-design" target='_blank' rel="noopener noreferrer" style={{ textDecoration: "none", color: "white", border: "2px solid #f9ab00" }} >  Github</a>
                             <a href={project.liveSiteURl} className="btn link-button-design" target='_blank' rel="noopener noreferrer" style={{ textDecoration: "none", color: "white", border: "2px solid #f9ab00" }} >Live Site</a>
 

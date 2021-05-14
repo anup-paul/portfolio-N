@@ -2,4 +2,22 @@
 
     background-color: var(--primary-orange);
     color: var(--primary-background)!important;
+    transform: scale(1.1);
+}
+
+.blog_design{
+    width: 1000px;
+}
+
+@media  (max-width: 1000px){
+    .blog_design{
+        width: 500px;
+        justify-content: center;
+    }
+}
+@media  (max-width: 500px){
+    .blog_design{
+        width: 400px;
+        justify-content: center;
+    }
 }

@@ -8,7 +8,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const AboutMe = () => {
     return (
-        <div className="aboutMe-section">
+        <div>
             <Zoom>
                 <div className="d-flex justify-content-center" >
                     <div className="row w-50  my-5 py-5">
