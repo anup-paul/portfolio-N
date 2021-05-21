@@ -30,10 +30,9 @@ const blogInfo = [
 const Blogs = () => {
     return (
 
-        <div>
             <div className="d-flex justify-content-center">
                 <Zoom>
-                    <div className="row  my-5 blog_design">
+                    <div className="row container my-5">
                         <h1 className="text-center my-5" style={{ color: "#f9ab00" }} > <b><b style={{ color: "white" }}> Some Of My</b> Blogs</b></h1>
                         {
                             blogInfo.map(info => <BlogDetails info={info} ></BlogDetails>)
@@ -41,7 +40,6 @@ const Blogs = () => {
                     </div>
                 </Zoom>
             </div>
-        </div>
 
     );
 };

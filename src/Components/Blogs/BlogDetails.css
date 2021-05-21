@@ -5,20 +5,3 @@
     transform: scale(1.1);
 }
 
-.blog_design{
-    width: 1000px;
-}
-
-@media  (max-width: 1000px){
-    .blog_design{
-        width: 500px!important;
-        justify-content: center!important;
-        align-items: center!important;
-    }
-}
-@media  (max-width: 500px){
-    .blog_design{
-        width: 400px!important;
-        justify-content: center!important;
-    }
-}
