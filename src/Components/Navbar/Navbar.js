@@ -3,7 +3,7 @@ import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
-import resume from '../../resume/Anup-Paul102.pdf'
+import resume from '../../resume/AnupPaul104.pdf'
 
 const Navbar = () => {
     return (
