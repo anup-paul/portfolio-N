@@ -72,7 +72,7 @@ const AboutMe = () => {
                                 <h2 className="text-center" style={{ color: "white" }} >&#9679; <b style={{ color: "#f9ab00" }} >Programing</b></h2>
                                 <p className="skill-design">
                                     <button className="btn btn-secondary m-1">JavaScript</button>
-                                    <button className="btn btn-secondary m-1 ">Jave</button>
+                                    <button className="btn btn-secondary m-1 ">Java</button>
                                     <button className="btn btn-secondary m-1">C</button>
                                     <button className="btn btn-secondary m-1 ">C++</button>
 
