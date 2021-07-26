@@ -1,7 +1,7 @@
 import React from 'react';
 import profileImage from '../../images/DP3.jpg';
 import './AboutMe.css';
-import resume101 from '../../resume/anupPaul105.pdf';
+import resume101 from '../../resume/anupPaul106.pdf';
 import { Zoom } from "react-awesome-reveal";
 
 
